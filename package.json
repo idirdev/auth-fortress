@@ -1,0 +1,19 @@
+{
+  "name": "@idirdev/auth-fortress",
+  "version": "1.0.0",
+  "description": "Authentication and authorization library with JWT, API keys, rate limiting, and RBAC",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/auth-fortress.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
