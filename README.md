@@ -128,3 +128,30 @@ auth-fortress/
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+Auth Fortress est un microservice d'authentification prêt pour la production, construit avec Express et TypeScript. Il implémente les JWT (tokens d'accès courte durée et rotation des tokens de rafraîchissement), le hachage bcrypt, le contrôle d'accès basé sur les rôles (RBAC), et la détection de réutilisation de tokens compromis.
+
+### Installation
+```bash
+# 1. Cloner le dépôt
+git clone https://github.com/idirdev/auth-fortress.git
+cd auth-fortress
+
+# 2. Installer les dépendances
+npm install
+
+# 3. Configurer l'environnement
+cp .env.example .env
+# Modifier .env avec un JWT_SECRET sécurisé
+
+# 4. Démarrer en mode développement
+npm run dev
+```
+
+### Utilisation
+Le service expose les endpoints `/auth/register`, `/auth/login`, `/auth/refresh`, `/auth/logout` et `/auth/me`. Consultez la section **API Endpoints** et les exemples `curl` ci-dessus pour les détails de chaque requête. En production, remplacez les stores en mémoire par PostgreSQL et Redis.
