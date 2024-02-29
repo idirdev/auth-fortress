@@ -155,3 +155,4 @@ npm run dev
 
 ### Utilisation
 Le service expose les endpoints `/auth/register`, `/auth/login`, `/auth/refresh`, `/auth/logout` et `/auth/me`. Consultez la section **API Endpoints** et les exemples `curl` ci-dessus pour les détails de chaque requête. En production, remplacez les stores en mémoire par PostgreSQL et Redis.
+
